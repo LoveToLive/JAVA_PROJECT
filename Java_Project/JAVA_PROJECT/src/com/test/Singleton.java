@@ -21,6 +21,7 @@ public class Singleton {
 
 class SingletonDemo{
 	public static void main(String[] args) {
+		System.out.println("fsdfs");
 		Singleton s=Singleton.newInstance();
 		s.display();
 	}
